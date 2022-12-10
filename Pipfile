@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple/"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+django-rest-framework = "*"
+celery = "*"
+django-celery-results = "*"
+django-celery-beat = "*"
+redis = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
