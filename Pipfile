@@ -10,6 +10,9 @@ celery = "*"
 django-celery-results = "*"
 django-celery-beat = "*"
 redis = "*"
+django-cors-headers = "*"
+sqlalchemy = "*"
+djangorestframework-simplejwt = "*"
 
 [dev-packages]
 
