@@ -4,7 +4,8 @@ from celery import Celery
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'leopard.settings')
 
-app = Celery('leopard', backend='redis://localhost:6379/1', broker='redis://localhost:6379/0')
+# backend='redis://localhost:6379/1', broker='redis://localhost:6379/0'
+app = Celery('leopard')
 
 app.config_from_object('django.conf:settings', namespace='CELERY')
 
